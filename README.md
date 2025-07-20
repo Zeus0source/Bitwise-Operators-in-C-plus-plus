@@ -1,2 +1,6 @@
-# Bitwise-Operators-in-C-plus-plus
-This repository consists of the code which uses Bitwise Operators  
+# Aim: To study and implement C++ Bitwise Operators
+# Software Required:
+Visual Studio
+# Theory:
+
+
