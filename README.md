@@ -35,6 +35,74 @@ The Bitwise Operators are used in the following cases which helps to understand 
 + Usage of Bitwise Operators(basic)
 + To set specific Bits(Uses Binary logic)
 
+# Algorithm:
+Program 1
+Objective:
+To perform and display results of various bitwise operations using two predefined integers.
+
+Steps:
+1. Start
+   
+2.Declare and initialize two integers:
+
+a ← 3
+b ← 7
+
+3. perform bitwise operations:
+
+bitwise_and ← a AND b (a & b)
+
+bitwise_or ← a OR b (a | b)
+
+bitwise_xor ← a XOR b (a ^ b)
+
+bitwise_not ← NOT a (~a)
+
+4. Perform shift operations:
+
+leftshift ← a shifted left by 2 bits (a << 2)
+
+rightshift ← 3 shifted right by a bits (3 >> a)
+
+5. Display results:
+
+Output all computed values to the console using cout
+
+6. End
+
+Program 2
+
+Objective:
+To modify a predefined integer by setting and resetting specific bits as per user input.
+
+Steps:
+
+1. Start
+
+2. Initialize integer i ← 80
+
+3. Ask the user to enter the bit position to set
+
+4. Read input into bit_to_be_set
+
+5. Set the specified bit using bitwise OR:
+
+6. set ← i | (1 << bit_to_be_set)
+
+7. Ask user to enter the bit position to reset
+
+8. Read input into reset
+
+9. Reset the specified bit using bitwise AND with bitwise NOT:
+
+10. reset ← i & ~(1 << reset)
+
+11. Display the result after setting
+
+12. Display the result after resetting
+
+13. End
+
 # Conclusion:
 This Document as well as Program discovers the various types of bitwise operators that are available in C++.
 
